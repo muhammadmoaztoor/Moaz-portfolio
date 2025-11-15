@@ -20,7 +20,7 @@ import Calculator from "./Components/Calculator";
 import WeatherApp from "./Components/WeatherApp";
 
 // Correct CSS import
-import "./styles.css";
+import "./Style.css"; // ✅ exact match with file name
 
 export default function App() {
   return (
