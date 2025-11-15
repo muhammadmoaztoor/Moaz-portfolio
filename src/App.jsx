@@ -19,8 +19,8 @@ import TodoApp from "./Components/TodoApp";
 import Calculator from "./Components/Calculator";
 import WeatherApp from "./Components/WeatherApp";
 
-// Correct CSS import
-import "./Style.css"; // ✅ exact match with file name
+// Correct CSS import (case-sensitive)
+import "./Style.css";  // Make sure the file name is exactly Style.css
 
 export default function App() {
   return (
